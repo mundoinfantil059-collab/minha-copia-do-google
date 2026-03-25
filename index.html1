@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Google Clone - Demo</title>
+    <style>
+        body { font-family: Arial, sans-serif; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; margin: 0; }
+        .logo { font-size: 90px; font-weight: bold; margin-bottom: 20px; }
+        .g { color: #4285F4; } .o1 { color: #EA4335; } .o2 { color: #FBBC05; } .l { color: #34A853; } .e { color: #EA4335; }
+        
+        .search-box { width: 580px; border: 1px solid #dfe1e5; border-radius: 24px; padding: 10px 20px; display: flex; align-items: center; transition: box-shadow 0.2s; }
+        .search-box:hover { box-shadow: 0 1px 6px rgba(32,33,36,.28); border-color: transparent; }
+        .search-box input { border: none; outline: none; width: 100%; font-size: 16px; }
+        
+        .buttons { margin-top: 30px; }
+        button { background: #f8f9fa; border: 1px solid #f8f9fa; border-radius: 4px; color: #3c4043; padding: 0 16px; height: 36px; min-width: 54px; margin: 5px; cursor: pointer; }
+        button:hover { border: 1px solid #dadce0; color: #202124; }
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <span class="g">G</span><span class="o1">o</span><span class="o2">o</span><span class="g">g</span><span class="l">l</span><span class="e">e</span>
+    </div>
+    <div class="search-box">
+        <input type="text" autofocus>
+    </div>
+    <div class="buttons">
+        <button>Pesquisa Google</button>
+        <button>Estou com sorte</button>
+    </div>
+</body>
+</html>
+
